@@ -1,0 +1,33 @@
+/*
+MY COLOR PALETTE
+Color 1 - #FFEE88
+Color 2 - #00CC99
+Color 3 - #FDFFF7
+Color 4 - #880044
+Color 5 - #AA1155
+*/
+
+body {
+    background-color: #00cc99;
+    text-align: center;
+}
+button {
+    background-color: #ffee88;
+    color: #880044;
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 30px;
+}
+button:hover {
+    background-color: #fdfff7;
+}
+h1 {
+    font-family: "Roboto", serif;
+}
