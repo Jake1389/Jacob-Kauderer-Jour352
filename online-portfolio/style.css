@@ -1,0 +1,75 @@
+/*
+ * Color Palette
+Color 1 - #FFEE88
+Color 2 - #00CC99
+Color 3 - #FDFFF7
+Color 4 - #880044
+Color 5 - #AA1155
+Color 6 - #f5f5ef
+Color 7 - #8a6d56
+Color 8 - #ffbd59
+ */
+
+@media {
+    h1 {
+        font-family: "Roboto", serif;
+        padding: 10px 20px 20px 10px;
+        font-size: 50px;
+    }
+    h2 {
+        padding: 10px 20px 20px 10px;
+    }
+
+    img {
+        width: 75%;
+        display:block;
+        text-align:center; 
+    }
+
+    button {
+        width: 100%;
+        border-radius: 100px;
+        border-color: #8a6d56;
+        padding: 10px 20px 20px 10px;
+        text-decoration: underline;
+    }
+
+    body {
+        background-color: #f5f5ef;
+    }
+
+    #topper {
+        height: 50px;
+    }
+
+    #navigation {
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: "Roboto", serif;
+    }
+
+    .jobtitle {
+        font-size: 40px;
+    }
+
+    .experience {
+        font-size: 92px;
+    }
+
+    .jobs {
+    }
+
+    .organization {
+        font-family: "Roboto", serif;
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+}
