@@ -1,0 +1,139 @@
+@media {
+    h1 {
+        font-family: "Roboto" serif;
+        padding: 10px 20px 20px 10px;
+        font-size: 50px;
+    }
+    h2 {
+        padding: 10px 20px 20px 10px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 100px;
+    }
+
+    body {
+        background-color: #f0f8ff;
+        font-family: "Roboto", serif;
+    }
+
+    #topper {
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    #topper h1 {
+        font-size: 8rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    #topper h2 {
+        font-size: 3rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    #navigation {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    #navigation h4 {
+        font-size: 2.5px;
+    }
+
+    #sections h3 {
+        color: #13004d;
+        font-size: 55px;
+        text-decoration: underline;
+        text-underline-offset: 15px;
+    }
+
+    .content-column {
+        padding: 2rem;
+    }
+
+    .school {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0.3px;
+    }
+
+    .degree {
+        font-size: 25px;
+        margin-bottom: 0.3rem;
+    }
+
+    .dates {
+        font-size: 25px;
+    }
+
+    .jobtitle {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0.3rem;
+    }
+
+    .organization {
+        font-size: 25px;
+        margin-bottom: 0.3rem;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .col-4 p {
+        margin-bottom: 0.5rem;
+    }
+
+    .image-column img {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    #skills h4 {
+        font-size: 35px;
+        margin-bottom: 2rem;
+    }
+
+    .button-style {
+        margin: 0;
+        font-size: 25px;
+        padding: 25px 25px;
+        background-color: white;
+        color: #13004d;
+        display: inline-block;
+        border-radius: 100px;
+        border: 1px solid #13004d;
+    }
+
+    .button-style:hover {
+        background-color: #13004d;
+        color: white;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 100px;
+    }
+}
