@@ -6,8 +6,19 @@ h1 {
     margin: 20px 0px 300px 0px;
 }
 
-h2 {
-    font-weight:bold;
+.pullquote {
+    margin: 0px 0px 0px 20px;
+    border-left: 8px solid black;
+}
+.quote {
+    font-size:25px;
+    line-height:1em;
+    font-family: "Roboto", sans-serif;
+    padding:0px 0px 0px 10px;
+}
+
+.name {
+    padding:0px 0px 0px 10px;
 }
 
 #topper {
