@@ -1,0 +1,27 @@
+
+
+h1 {
+     font-family: "Roboto", sans-serif;
+    color:black;
+    margin: 20px 0px 300px 0px;
+}
+
+h2 {
+    font-weight:bold;
+}
+
+#topper {
+    background-color: dodgerblue;
+}
+
+@media (min-width:576px) {
+    h1 {
+        font-size:"80px"
+    }
+}
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 80px;
+    }
+}
