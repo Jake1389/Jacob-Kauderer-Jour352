@@ -1,37 +1,80 @@
-
-
-h1 {
-     font-family: "Roboto", sans-serif;
-    color:black;
-    margin: 20px 0px 300px 0px;
-}
-
-.pullquote {
-    margin: 0px 0px 0px 20px;
-    border-left: 8px solid black;
-}
-.quote {
-    font-size:25px;
-    line-height:1em;
-    font-family: "Roboto", sans-serif;
-    padding:0px 0px 0px 10px;
-}
-
-.name {
-    padding:0px 0px 0px 10px;
-}
-
-#topper {
-    background-color: dodgerblue;
-}
-
-@media (min-width:576px) {
+@media screen {
     h1 {
-        font-size:"80px"
+        font-style: italic;
+        color: black;
+        margin: 20px 0px 0px 0px;
+    }
+    .colorback {
+        background-color: rgba(214, 238, 240, 0.98);
+    }
+    hr {
+        border: 2px solid black;
+        height: 20px;
+        background-color: #f0ead6;
+        padding: 0;
+    }
+
+    .pullquote {
+        margin: 40px 0px;
+        padding: 20px;
+        background-color: #f0ead6;
+        border-left: 8px solid blue;
+        clear: both;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .pullquote .quote {
+        font-size: 20px;
+        line-height: 1.4;
+        font-style: italic;
+        margin: 0 0 1rem 0;
+        font-family: "Roboto", sans-serif;
+        padding: 0 10px;
+    }
+
+    .pullquote .name {
+        font-size: 18px;
+        text-align: right;
+        font-weight: bold;
+        margin: 0;
+        padding: 0 10px 10px 0;
+    }
+
+    .body-text p {
+        font-size: 18px;
+        line-height: 1.5;
+        font-family: "Poppins";
+    }
+    .figure {
+        float: none;
+        width: 100%;
+    }
+
+    .figure-caption {
+        font-size: 0.9rem;
+        font-style: italic;
+        color: gray;
     }
 }
 
-@media (min-width:768px) {
+@media (min-width: 576px) {
+    h1 {
+        font-size: "80px";
+    }
+    .figure {
+        float: right;
+        width: 50%;
+        margin-left: 20px;
+    }
+    .figureleft {
+        float: left;
+        width: 50%;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 768px) {
     h1 {
         font-size: 80px;
     }
